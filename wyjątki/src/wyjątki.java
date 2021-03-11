@@ -33,11 +33,11 @@ public class wyjątki {
             } catch (InputMismatchException inputMismatchException) {
                 System.out.println("Niepoprawne dane!");
 
-            } catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {System.out.println("Tablica jest pełna!");
+            } catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {System.out.println("Tablica jest już pełna nie można wpisać więcej danych!");
             }
 
         }finally {
-            System.out.println("Koniec programu!");
+            System.out.println("Koniec !");
         }
     }
 }
